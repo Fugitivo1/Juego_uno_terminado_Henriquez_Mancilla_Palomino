@@ -93,6 +93,7 @@ class Juego{
 		// Por ahora está en un ciclo infinito
 		// se muestra la carta del pozo y se juega por el usuarios
 		// y luego juega el computador, está solo con dos jugadores
+		// generar carta otra vez siempre y cuando el primer pozo elegido sea "Especial"
 		while(mazo.getCarta(this.cartaNumeroPozo).getColor()=="Especial")
 		{
 			this.cartaNumeroPozo=generarCarta();
